@@ -1,0 +1,21 @@
+<h1>
+  {{title}}
+</h1>
+
+<input [(ngModel)]="test_val">
+<p>{{test_val}}</p>
+
+
+<div [ngClass]="'container'">
+    <div [ngClass]="'row'">
+        <div [ngClass]="'col-md-4 text-center'">
+            This is test 1
+        </div>
+        <div [ngClass]="'col-md-4 text-center'">
+            This is test 2
+        </div>
+        <div [ngClass]="'col-md-4 text-center'">
+            This is test 3
+        </div>
+    </div>
+</div>
